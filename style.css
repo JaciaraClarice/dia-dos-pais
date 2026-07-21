@@ -107,9 +107,8 @@ button:hover{
 
     position:absolute;
 
-    width:65%;
-
-    max-width:700px;
+    width:280px;
+    height:400px;
 
     top:50%;
     left:50%;
@@ -117,10 +116,12 @@ button:hover{
     transform:
     translate(-50%,-50%);
 
+    object-fit:cover;
+
     border-radius:20px;
 
     box-shadow:
-    0 0 40px rgba(0,0,0,.5);
+    0 10px 30px rgba(0,0,0,.5);
 
     opacity:0;
 
