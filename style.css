@@ -107,26 +107,23 @@ button:hover{
 
     position:absolute;
 
-    width:280px;
-    height:400px;
+    width:220px;
+    height:320px;
 
     top:50%;
     left:50%;
 
-    transform:
-    translate(-50%,-50%);
+    transform:translate(-50%,-50%);
 
     object-fit:cover;
 
     border-radius:20px;
 
-    box-shadow:
-    0 10px 30px rgba(0,0,0,.5);
+    box-shadow:0 10px 30px rgba(0,0,0,.5);
 
     opacity:0;
 
-    animation:
-    aparecer 5s forwards;
+    animation:aparecer 5s forwards;
 }
 
 @keyframes aparecer{
